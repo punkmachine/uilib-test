@@ -1,16 +1,21 @@
 {
-  "name": "@punkmachine/uilib-test",
+  "name": "@punkmachinedev/uilib-test",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
+  "main": "dist/ui-lib-test.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "vue": "^3.4.19"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/punkmachine/uilib-test.git"
