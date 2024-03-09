@@ -10,9 +10,6 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "vue": "^3.4.19"
-  },
   "files": [
     "dist/"
   ],
@@ -21,9 +18,13 @@
     "url": "https://github.com/punkmachine/uilib-test.git"
   },
   "devDependencies": {
+    "vue": "^3.4.19",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
     "vue-tsc": "^1.8.27"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
   }
 }
